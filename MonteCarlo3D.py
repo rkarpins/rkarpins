@@ -1,4 +1,5 @@
-#
+#Estimates the riemann sum of a 3 variable function using the montecarlo approximation
+#Plots a 3D diagram of the integral using matplotlib
 fig = plt.figure()
 ax = fig.gca(projection='3d')
 
