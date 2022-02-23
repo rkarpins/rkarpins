@@ -1,5 +1,17 @@
 #prompts user to create an nxm matrix, and then performs Ordinary Least Squares on that matrix
 #beta_hat = (X^T*X)^-1*X^T*y
+import seaborn as sns
+import sympy as sy
+import numpy as np
+import pandas as pd
+import math
+import random
+import matplotlib.pyplot as plt
+import re
+
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+from matplotlib.ticker import LinearLocator, FormatStrFormatter
 
 def get_OLS():
     n=(input("Enter the matrix size in the format m,n: \n"))
