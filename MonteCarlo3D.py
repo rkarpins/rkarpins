@@ -1,5 +1,19 @@
 #Estimates the riemann sum of a 3 variable function using the montecarlo approximation
 #Plots a 3D diagram of the integral using matplotlib
+
+import seaborn as sns
+import sympy as sy
+import numpy as np
+import pandas as pd
+import math
+import random
+import matplotlib.pyplot as plt
+import re
+
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+from matplotlib.ticker import LinearLocator, FormatStrFormatter
+
 fig = plt.figure()
 ax = fig.gca(projection='3d')
 
