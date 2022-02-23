@@ -1,4 +1,16 @@
 #Estimates the riemann sum of a function using the montecarlo approximation
+import seaborn as sns
+import sympy as sy
+import numpy as np
+import pandas as pd
+import math
+import random
+import matplotlib.pyplot as plt
+import re
+
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+from matplotlib.ticker import LinearLocator, FormatStrFormatter
 
 fig, (ax1) = plt.subplots(1, 1, sharex=True)
 
