@@ -1,5 +1,18 @@
 #Prompts the user to create a normal distribution and then calculates the 
 #riemann sum approximation of an integral with a specified range and accuracy 
+import seaborn as sns
+import sympy as sy
+import numpy as np
+import pandas as pd
+import math
+import random
+import matplotlib.pyplot as plt
+import re
+
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+from matplotlib.ticker import LinearLocator, FormatStrFormatter
+
 def riemann():
     x1 = float(input('x1 = '))
     x2 = float (input('x2 = '))
